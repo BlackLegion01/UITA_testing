@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Iniciar Sesión | Una institucion te acompaña</h2>
+        <form id="Login">
+            <div class="form-group">
+                <label for="loginEmail">Correo Electrónico</label>
+                <input type="email" id="loginEmail" name="loginEmail" required>
+            </div>
+            <div class="form-group">
+                <label for="loginPassword">Contraseña</label>
+                <input type="password" id="loginPassword" name="loginPassword" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Iniciar Sesión" onclick="is()">
+            </div>
+            <div class="message" id="loginMessage"></div>
+        </form>
+    </div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
